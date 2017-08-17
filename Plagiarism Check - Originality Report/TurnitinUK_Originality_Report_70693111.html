@@ -1,0 +1,348 @@
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Turnitin, LLC" />
+    <meta name="keywords" content="" /> 
+    <meta name="description" content="" />
+    <meta name="viewport" content="width = initial-scale" />
+    <meta name="viewport" content="height = initial-scale" />
+    
+<title>TurnitinUK Originality Report</title>
+
+<base href="http://www.turnitinuk.com">
+<style type="text/css">
+	
+body	{
+	color: #000;
+	background: #ddd;
+	padding: 0;
+	border: 0;
+	font: 14px Arial, Verdana, sans-serif;
+	margin: 0;
+	text-align: center;
+	}
+	
+form	{
+	padding: 0;
+	margin: 0;
+	}
+	
+p	{
+	padding: .8em 1.5em;
+	margin: 0;
+	text-align: left;
+	}
+	
+img	{
+	border: 0;
+	padding: 0;
+	}
+
+div	{
+	padding: 0;
+	border: 0;
+	text-align: left;
+	}
+	
+strong	{
+	font-weight: bold;
+	}
+	
+h2	{
+	font-size: 15px;
+	margin: 20px 0 10px 20px;
+	}
+	
+a:link, a:visited	{
+	text-decoration: underline;
+	color: #00f;
+	}
+	
+a:hover, a:active	{
+	text-decoration: underline;
+	color: #888;
+	}
+	
+img#logo	{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	}
+	
+div#container	{
+	border: 1px solid #aaa;
+	width: 770px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 10px 0;
+	}
+	
+div#top	{
+	background: #fff;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+	
+div#content	{
+	background: #fff;
+	}
+	
+#top p	{
+	padding: .3em 0 .3em 20px;
+	}
+
+#top span	{
+	padding-right: 35px;
+	}
+	
+#top p#orig	{
+	padding-top: 15px;
+	}
+	
+#orig span#score.red	{
+	border-right: 18px solid red;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.orange	{
+	border-right: 18px solid orange;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.yellow	{
+	border-right: 18px solid yellow;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.green	{
+	border-right: 18px solid green;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.blue	{
+	border-right: 18px solid blue;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+div.divider	{
+	width: 7in;
+	border: 1px dotted #888;
+	margin: auto;
+	padding: 4px 0 4px 10px;
+	font-weight: bold;
+	background: #ddd;
+	font-size: 15px;
+	}
+	
+div.links	{
+	width: 7in;
+	margin: auto;
+	}
+	
+.links div	{
+	padding: 15px 20px 15px 20px;
+	border-bottom: 1px dotted #888;
+	}
+	
+.links div#last	{
+	padding: 15px 20px 20px 20px;
+	border-bottom: 0;
+	}
+	
+div.number	{
+	float: right;
+	background: white;
+	border: 1px solid #888;
+	margin: 0 0 0 20px;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+div.number-l	{
+	float: left;
+	background: white;
+	border: 1px solid #888;
+	margin: 6px 16px 10px 0;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+.links div p	{
+	padding: .2em 1.5em .4em 0;
+	}
+	
+.links div p#mess	{
+	padding: .2em 1.5em 0 0;
+	}
+	
+div#body	{
+	line-height: 1.5em;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 20px;
+	}
+	
+#body p	{
+	color: #555;
+	padding-top: 30px;
+	line-height: 20px;
+	}
+
+	
+#body a	{
+	display: block;
+	color: red;
+	margin: 1em 3em;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 1em 1em;
+	border: 1px dotted #888;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 26px;
+	background: #FFFFE5;
+	}
+
+#body span	{
+	color: #555;
+	font-weight: normal;
+	font-size: 14px;
+	}
+
+#body span.number	{
+	display: block;
+	float: right;
+	color: #000;
+	font-weight: normal;
+	border: 1px solid #888;
+	padding: 0 6px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: .9em;
+	background: #fff;
+	}
+	
+#actions	{
+	display: none;
+	}
+
+</style>
+
+
+
+</head>
+
+<body id="or_print_report">
+
+
+<div id="container">
+
+<div id="top">
+    <div id="content">
+        <!-- ######### Top Body  ##########################--> 
+        <div id="top_body">
+            <p id="title">
+            <img src="https://www.turnitincdn.com/800404/static2.turnitin.com/r/build/images/814a4152b3aca062da5c4bcdcd07c82ecb_tiiuklogo.gif" id="logo" width="60">
+            TurnitinUK Originality Report
+            </p>
+                <div class="general_info">
+                    <p>
+                        <span>ADI</span>
+                        
+                        by Biju Ale
+                        
+                    </p>
+                    <p>
+                        From Analysis,Design and Implementation (L5DC 17 B)
+                    </p>
+                    <ul>
+                        <li>Processed on 21-Apr-2017  4:19 PM BST</li>
+                        <li>ID: 70693111</li>
+                        <li>Word Count: 884</li>
+                    </ul>
+                </div>
+                <div class="similarity_box">
+                    <div class="overall_similarity">
+                        <div class="color_box blue">&nbsp;</div>
+                        <div class="similarity_title">Similarity Index</div>
+                        <div class="similarity_percent">0%</div>
+                    </div>
+                    <div class="similarity_by_source">
+                        <div class="similarity_title">Similarity by Source</div>
+                        <dl>
+                            <dt>Internet&nbsp;Sources:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Publications:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Student&nbsp;Papers:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                        </dl>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                                 
+        </div>
+        <!-- ######### END Top Body  ##########################--> 
+    </div>
+</div>
+
+<div class="divider">sources:</div>
+
+<div class="links">
+
+	<div><p id="mess">There are no matching sources for this report.</p></div>
+
+
+</div>
+
+
+
+<div class="divider">paper text:</div>
+<div id="body">
+Abstract This report presents the analysis, design and implementation for – “Social Time”, an event planner system developed in object-oriented paradigm. The report is divided into 5 sections, which collectively documents the analysis, design, and implementation of the system. Each section is accompanied by code snippets. Introduction “Social Time’ sets itself apart from the general event planner tools in that it is attendee oriented. The primary reason is that the event date is algorithmically set to the best of feasible timeslots in the attendee. This report was written as part of the assignment (June 2017) of L5DC’s module – ‘ADI (Analysis, Design, &amp; Implementation)’. The report documents each of the system development stages namely – analysis, design, and, implementation. Firstly, use cases for the system were identified which is part of Task 3 (Use Case Diagram). Then, as part of the requirement analysis, Natural Language Analysis (NLA), was conducted to represent domain level class diagram for the system. This is shown in Task 1 (List of Potential Class &amp; Diagram). Then, dynamic model of the system was designed in Task 2 (Activity Diagram), where the core logic of feasible timeslot calculation is presented. The final static architecture is presented in Task 4. This contains the class diagram of the final system that includes persistence layer, core business, and presentation layer with design patterns applied. Lastly, the implementation was done in Java 8 using Netbeans 8.1 with JDK version 1.8.0_121. Task 1 – List of potential/candidate classes with final class diagram NLA NLA abbreviated for Natural Language Analysis is the process of requirement analysis of system on a given written-documentation of scenario or brief. The goal of NLA is to identify business models in the system. And, to obtain a starting static model of the system represented as class diagram. NLA involves steps for filtrations for nouns as potential classes and attributes, adjectives as attributes (not always explicitly defined.), and verbs as potential methods. Step 1: Noun identification for potential classes ? Scenario brief was studied thoroughly and all nouns were identified. ? Filtration was applied on nouns to get final list of potential classes. o o o Redundant nouns were removed. Synonymous nouns were removed. Data carrying capacity of noun was checked. • If many, then noun was selected for class (Example: User has many data members like name, location etc) • If 1, then noun was selected for attribtute. (Example: Data can hold only 1 value i.e. date). o Architecture level actions and objects were skipped • Example: databases and views o Future inference into actions were skipped • Generating uncertain timeslots based on available &amp; unavailable timeslots. (This is done algorithmically with correct parameters and need no representation in domain level Class diagram.) Step 2 – Verb identification for potential methods/operations ? Filtration was applied on verbs to get final list of potential methods. o o o Redundant verbs were removed. Synonymous verbs were removed. Architecture level actions and objects were skipped • Example: saving to databases and creating views o Future inference into actions were skipped • Generating uncertain timeslots based on available &amp; unavailable timeslots. (This is done algorithmically with correct parameters and need no representation in domain level Class diagram.) Figure 1 DOmain Class Diagram Task 2 – Activity Diagram of feasible timeslot Task 3 – Use Case Use Case Brugge and Dutoit, in their book “Object-oriented software engineering: Using UML, Patterns, and Java” (Bruggee et al, 2010), introduces use case as a tool for both requirement analysis and behavioural modelling. Use case’s goal is to depict relationship between actors and the system via well-defined achievable functions known as use case. Actors are role abstractions and not human users. Following diagram depicts the use case for “Social Time”. All attendees are invitees, and both attendees and invitees are users or registered users. Each relate to the system and associate with particular use cases as shown below. Figure 2: Use Case - Social Time Task 4 – Code Architecture Task 5 – System implementation: Java source code System Implementation System was implemented based on the architectural level class diagram shown in task 4. The code logic of feasible timeslots generation uses the design of activity diagram shown in Task 2. All implementation was done using Java 8 with IDE as Netbeans 8.1 and JDK of version 1.8.0_121. Design Patterns used in application ? Data Access Object pattern was used for respective model classes for persistence. JDBC technology was used to achieve this. MySQL was preferred database for the system. ? To instantiate each models, simple factory pattern was applied. Likewise, observer pattern was applied to send event notification to all potential invitees. ? Model View Controller (MVC) pattern was used to communicate between the user interface and core models. The controllers forwarded and parse inputs to respective factories, daos, or models based on its dependency. ? Controller acted as façade for the system. Distributed controllers were implemented to handle each models such as timeslot and user. ? Singleton pattern was used to instantiate connection object. Figure 3: Package heirarchy, classes, and libraries Class - Timeslot Controller Class - User Controller Interface – DAO Class – DAOEvent Class – DAOUser Class - DAOUserTimeSlot Class – DAOEventFactory Class – DAOUserFactory Class – DAOUserTimeSlotFactory Interface – SimpleDAOFactory Class – ConnectionFactory Class – CandidateTimeSlot Class – Event Class – Invitee Class – SocialTime Class – TimeSlot Class – User Class – EventFactory Class – TimeSlotFactory Class – UserFactory Class – SimpleModelFactory Class (for testing only) – Main Driver Class – RegistrationFrame 
+</div>
+</div>
+</body>
+</html>
